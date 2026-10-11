@@ -1,0 +1,124 @@
+dv_id,dv_name,unitid,ipeds_name,match_level,match_note
+96,Allan Hancock College,108807,Allan Hancock College,college,normalized exact name
+97,American River College,109208,American River College,college,normalized exact name
+98,Antelope Valley College,109350,Antelope Valley Community College District,college,hand-matched name variant
+99,Bakersfield College,109819,Bakersfield College,college,normalized exact name
+100,Barstow College,109907,Barstow Community College,college,normalized exact name
+101,Berkeley City College,125170,Berkeley City College,college,normalized exact name
+102,Butte College,110246,Butte College,college,normalized exact name
+103,Cabrillo College,110334,Cabrillo College,college,normalized exact name
+218,Calbright College,,,excluded,online statewide college; not in the IPEDS 2023 public CA directory pulled
+104,Canada College,111434,Canada College,college,hand-matched name variant
+105,Cerritos College,111887,Cerritos College,college,normalized exact name
+106,Cerro Coso Community College,111896,Cerro Coso Community College,college,normalized exact name
+107,Chabot College,111920,Chabot College,college,normalized exact name
+108,Chaffey College,111939,Chaffey College,college,normalized exact name
+109,Citrus College,112172,Citrus College,college,normalized exact name
+110,City College of San Francisco,112190,City College of San Francisco,college,normalized exact name
+111,Clovis Community College,489201,Clovis Community College,college,normalized exact name
+211,Coalinga College,125462,Coalinga College,college,normalized exact name
+112,Coastline Community College,112385,Coastline Community College,college,normalized exact name
+113,College of Alameda,108667,College of Alameda,college,normalized exact name
+114,College of Marin,118347,College of Marin,college,normalized exact name
+115,College of San Mateo,122791,College of San Mateo,college,normalized exact name
+116,College of the Canyons,111461,College of the Canyons,college,normalized exact name
+117,College of the Desert,113573,College of the Desert,college,normalized exact name
+118,College of the Redwoods,121707,College of the Redwoods,college,normalized exact name
+119,College of the Sequoias,123217,College of the Sequoias,college,normalized exact name
+120,College of the Siskiyous,123484,College of the Siskiyous,college,normalized exact name
+121,Columbia College,112561,Columbia College,college,hand-matched name variant
+122,Compton College,112686,Compton College,college,normalized exact name
+123,Contra Costa College,112826,Contra Costa College,college,normalized exact name
+124,Copper Mountain College,395362,Copper Mountain Community College,college,hand-matched name variant
+125,Cosumnes River College,113096,Cosumnes River College,college,normalized exact name
+126,Crafton Hills College,113111,Crafton Hills College,college,normalized exact name
+127,Cuesta College,113193,Cuesta College,college,normalized exact name
+128,Cuyamaca College,113218,Cuyamaca College,college,normalized exact name
+129,Cypress College,113236,Cypress College,college,normalized exact name
+130,De Anza College,113333,De Anza College,college,normalized exact name
+131,Diablo Valley College,113634,Diablo Valley College,college,normalized exact name
+132,East Los Angeles College,113856,East Los Angeles College,college,normalized exact name
+133,El Camino College,113980,El Camino Community College District,college,hand-matched name variant
+134,Evergreen Valley College,114266,Evergreen Valley College,college,normalized exact name
+135,Feather River College,114433,Feather River Community College District,college,hand-matched name variant
+136,Folsom Lake College,444219,Folsom Lake College,college,normalized exact name
+137,Foothill College,114716,Foothill College,college,normalized exact name
+138,Fresno City College,114789,Fresno City College,college,normalized exact name
+139,Fullerton College,114859,Fullerton College,college,normalized exact name
+140,Gavilan College,114938,Gavilan College,college,normalized exact name
+141,Glendale Community College,115001,Glendale Community College,college,hand-matched name variant
+142,Golden West College,115126,Golden West College,college,normalized exact name
+143,Grossmont College,115296,Grossmont College,college,normalized exact name
+144,Hartnell College,115393,Hartnell College,college,normalized exact name
+145,Imperial Valley College,115861,Imperial Valley College,college,normalized exact name
+146,Irvine Valley College,116439,Irvine Valley College,college,normalized exact name
+147,Lake Tahoe Community College,117195,Lake Tahoe Community College,college,normalized exact name
+148,Laney College,117247,Laney College,college,normalized exact name
+149,Las Positas College,366401,Las Positas College,college,normalized exact name
+150,Lassen College,117274,Lassen Community College,college,hand-matched name variant
+212,Lemoore College,448594,Lemoore College,college,normalized exact name
+151,Long Beach City College,117645,Long Beach City College,college,normalized exact name
+152,Los Angeles City College,117788,Los Angeles City College,college,normalized exact name
+153,Los Angeles Harbor College,117690,Los Angeles Harbor College,college,normalized exact name
+154,Los Angeles ITV,,,excluded,"instructional television unit, not a separate IPEDS institution"
+155,Los Angeles Mission College,117867,Los Angeles Mission College,college,normalized exact name
+156,Los Angeles Pierce College,117706,Los Angeles Pierce College,college,normalized exact name
+157,Los Angeles Southwest College,117715,Los Angeles Southwest College,college,normalized exact name
+158,Los Angeles Trade-Tech College,117724,Los Angeles Trade Technical College,college,hand-matched name variant
+159,Los Angeles Valley College,117733,Los Angeles Valley College,college,normalized exact name
+160,Los Medanos College,117894,Los Medanos College,college,normalized exact name
+217,Madera College,497046,Madera Community College,college,hand-matched name variant
+161,Marin Continuing,,,excluded,noncredit
+162,Mendocino College,118684,Mendocino College,college,normalized exact name
+163,Merced College,118718,Merced College,college,normalized exact name
+164,Merritt College,118772,Merritt College,college,normalized exact name
+165,MiraCosta College,118912,MiraCosta College,college,normalized exact name
+166,Mission College,118930,Mission College,college,hand-matched name variant
+167,Modesto Junior College,118976,Modesto Junior College,college,normalized exact name
+168,Monterey Peninsula College,119067,Monterey Peninsula College,college,normalized exact name
+169,Moorpark College,119137,Moorpark College,college,normalized exact name
+170,Moreno Valley College,460394,Moreno Valley College,college,normalized exact name
+171,Mt. San Antonio College,119164,Mt San Antonio College,college,hand-matched name variant
+172,Mt. San Jacinto College,119216,Mt San Jacinto Community College District,college,hand-matched name variant
+173,Napa Valley College,119331,Napa Valley College,college,normalized exact name
+174,Norco College,460464,Norco College,college,normalized exact name
+175,North Orange Continuing Education,,,excluded,noncredit
+176,Ohlone College,120290,Ohlone College,college,normalized exact name
+177,Orange Coast College,120342,Orange Coast College,college,normalized exact name
+178,Oxnard College,120421,Oxnard College,college,normalized exact name
+179,Palo Verde College,120953,Palo Verde College,college,normalized exact name
+180,Palomar College,120971,Palomar College,college,normalized exact name
+181,Pasadena City College,121044,Pasadena City College,college,normalized exact name
+182,Porterville College,121363,Porterville College,college,normalized exact name
+183,Rancho Santiago CED,,,excluded,noncredit
+184,Reedley College,117052,Reedley College,college,normalized exact name
+185,Rio Hondo College,121886,Rio Hondo College,college,normalized exact name
+186,Riverside City College,121901,Riverside City College,college,normalized exact name
+187,Sacramento City College,122180,Sacramento City College,college,normalized exact name
+188,Saddleback College,122205,Saddleback College,college,normalized exact name
+189,San Bernardino Valley College,123527,San Bernardino Valley College,college,normalized exact name
+191,San Diego City College,122339,San Diego City College,college,normalized exact name
+190,San Diego College of Continuing Education,,,excluded,noncredit
+192,San Diego Mesa College,122375,San Diego Mesa College,college,normalized exact name
+193,San Diego Miramar College,122384,San Diego Miramar College,college,normalized exact name
+194,San Francisco Centers,,,excluded,noncredit
+195,San Joaquin Delta College,122658,San Joaquin Delta College,college,normalized exact name
+196,San Jose City College,122746,San Jose City College,college,normalized exact name
+197,Santa Ana College,121619,Santa Ana College,college,normalized exact name
+198,Santa Barbara City College,122889,Santa Barbara City College,college,normalized exact name
+199,Santa Barbara Continuing,,,excluded,noncredit
+200,Santa Monica College,122977,Santa Monica College,college,normalized exact name
+201,Santa Rosa Junior College,123013,Santa Rosa Junior College,college,normalized exact name
+202,Santiago Canyon College,399212,Santiago Canyon College,college,normalized exact name
+203,Shasta College,123299,Shasta College,college,normalized exact name
+204,Sierra College,123341,Sierra College,college,normalized exact name
+205,Skyline College,123509,Skyline College,college,normalized exact name
+206,Solano Community College,123563,Solano Community College,college,hand-matched name variant
+207,Southwestern College,123800,Southwestern College,college,normalized exact name
+208,Taft College,124113,Taft College,college,normalized exact name
+209,Ventura College,125028,Ventura College,college,normalized exact name
+210,Victor Valley College,125091,Victor Valley College,college,normalized exact name
+213,West Los Angeles College,125471,West Los Angeles College,college,normalized exact name
+214,West Valley College,125499,West Valley College,college,normalized exact name
+215,Woodland Community College,455512,Woodland Community College,college,normalized exact name
+216,Yuba College,126119,Yuba College,college,normalized exact name

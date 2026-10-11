@@ -1,0 +1,75 @@
+{
+ "ca_files_found": 95,
+ "ca_from_browser_extract": [
+  "Contra Costa College",
+  "De Anza College",
+  "East Los Angeles College",
+  "Feather River College",
+  "Foothill College",
+  "Los Medanos College",
+  "Madera College",
+  "Santiago Canyon College",
+  "Shasta College",
+  "Sierra College",
+  "Skyline College",
+  "Solano Community College",
+  "Southwestern College",
+  "Taft College",
+  "Ventura College",
+  "Victor Valley College",
+  "West Los Angeles College",
+  "West Valley College",
+  "Woodland Community College",
+  "Yuba College"
+ ],
+ "ca_missing_years": [
+  [
+   "Madera College",
+   "19-20"
+  ]
+ ],
+ "ca_colleges_in_crosswalk": 115,
+ "ca_colleges_with_data": 115,
+ "ca_colleges_missing_file": [],
+ "tx_institutions_in_crosswalk": 55,
+ "tx_sum_vs_statewide": [
+  [
+   "2020",
+   "prepared",
+   31351,
+   36656
+  ],
+  [
+   "2020",
+   "underprepared",
+   41850,
+   47587
+  ],
+  [
+   "2021",
+   "prepared",
+   28330,
+   34530
+  ],
+  [
+   "2021",
+   "underprepared",
+   43266,
+   51887
+  ],
+  [
+   "2022",
+   "prepared",
+   33216,
+   40607
+  ],
+  [
+   "2022",
+   "underprepared",
+   45853,
+   54948
+  ]
+ ],
+ "rows_long": 738,
+ "colleges": 170
+}

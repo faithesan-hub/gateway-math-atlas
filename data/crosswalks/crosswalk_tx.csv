@@ -1,0 +1,56 @@
+unitid,ipeds_name,thecb_inst_id,thecb_name,match_level,match_note
+222567,Alvin Community College,85,ALVIN COMMUNITY COLLEGE,college,exact name
+222576,Amarillo College,86,AMARILLO COLLEGE,college,exact name
+222822,Angelina College,121,ANGELINA COLLEGE,college,exact name
+222992,Austin Community College District,138,AUSTIN COMMUNITY COLLEGE,college,name variant (District suffix in IPEDS)
+223320,Coastal Bend College,87,COASTAL BEND COLLEGE,college,exact name
+223427,Blinn College District,88,BLINN COLLEGE DISTRICT,college,exact name
+223506,Brazosport College,124,BRAZOSPORT COLLEGE,college,exact name
+223816,Central Texas College,119,CENTRAL TEXAS COLLEGE,college,exact name
+223898,Cisco College,89,CISCO COLLEGE,college,exact name
+223922,Clarendon College,90,CLARENDON COLLEGE,college,exact name
+224110,North Central Texas College,91,NORTH CENTRAL TEXAS COLLEGE,college,exact name
+224350,Del Mar College,93,DEL MAR COLLEGE,college,exact name
+224615,Dallas College,523,DALLAS COLLEGE DISTRICT,district,Dallas College reports as one institution in both sources
+224642,El Paso Community College,135,EL PASO COMMUNITY COLLEGE DISTRICT,college,name variant (District suffix in THECB)
+224891,Frank Phillips College,94,FRANK PHILLIPS COLLEGE,college,exact name
+224961,Galveston College,122,GALVESTON COLLEGE,college,exact name
+225070,Grayson College,95,GRAYSON COLLEGE,college,exact name
+225308,Trinity Valley Community College,96,TRINITY VALLEY COMMUNITY COLLEGE,college,exact name
+225371,Hill College,97,HILL COLLEGE,college,exact name
+225423,Houston Community College,136,HOUSTON CITY COLLEGE,college,THECB lists Houston City College; IPEDS 2023 lists Houston Community College (same institution after renaming; checked by maintainer)
+225520,Howard College,98,HOWARD CJCD-HOWARD COLLEGE,college,Howard County Junior College District campus
+226019,Kilgore College,99,KILGORE COLLEGE,college,exact name
+226134,Laredo College,100,LAREDO COLLEGE,college,exact name
+226204,Lee College,101,LEE COLLEGE,college,exact name
+226408,College of the Mainland,123,COLLEGE OF THE MAINLAND COMMUNITY COLLEGE DISTRICT,college,name variant
+226578,McLennan Community College,102,MCLENNAN COMMUNITY COLLEGE,college,exact name
+226806,Midland College,133,MIDLAND COLLEGE,college,exact name
+227146,Navarro College,103,NAVARRO COLLEGE,college,exact name
+227182,Lone Star College System,525,LONE STAR COLLEGE SYSTEM,district,IPEDS reports Lone Star as one system; THECB campus rows (79-84 698 728) are summed by THECB in row 525
+227225,Northeast Texas Community College,142,NORTHEAST TEXAS COMMUNITY COLLEGE,college,exact name
+227304,Odessa College,104,ODESSA COLLEGE,college,exact name
+227377,Texas Southmost College,114,TEXAS SOUTHMOST COLLEGE,college,exact name
+227386,Panola College,105,PANOLA COLLEGE,college,exact name
+227401,Paris Junior College,106,PARIS JUNIOR COLLEGE,college,exact name
+227687,Ranger College,107,RANGER COLLEGE,college,exact name
+227854,St Philip's College,108,ALAMO CCD-ST. PHILIP'S COLLEGE,college,Alamo Colleges campus
+227924,San Antonio College,131,ALAMO CCD-SAN ANTONIO COLLEGE,college,Alamo Colleges campus
+227979,San Jacinto Community College,527,SAN JACINTO COMMUNITY COLLEGE DISTRICT,district,one institution in both sources
+228158,South Plains College,110,SOUTH PLAINS COLLEGE,college,exact name
+228316,Southwest Texas Junior College,111,SOUTHWEST TEXAS COLLEGE,college,name variant (Junior dropped in THECB)
+228547,Tarrant County College District,524,TARRANT COUNTY COLLEGE DISTRICT,district,one institution in both sources
+228608,Temple College,112,TEMPLE COLLEGE,college,exact name
+228699,Texarkana College,113,TEXARKANA COLLEGE,college,exact name
+229355,Tyler Junior College,115,TYLER JUNIOR COLLEGE,college,exact name
+229504,Vernon College,134,VERNON COLLEGE,college,exact name
+229540,Victoria College,116,VICTORIA COLLEGE,college,exact name
+229799,Weatherford College,117,WEATHERFORD COLLEGE,college,exact name
+229832,Western Texas College,132,WESTERN TEXAS COLLEGE,college,exact name
+229841,Wharton County Junior College,118,WHARTON COUNTY JUNIOR COLLEGE,college,exact name
+246354,Palo Alto College,143,ALAMO CCD-PALO ALTO COLLEGE,college,Alamo Colleges campus
+247834,Collin County Community College District,144,COLLIN COUNTY COMMUNITY COLLEGE DISTRICT,college,exact name
+382911,Southwest College for the Deaf,78,HOWARD CJCD-SW COLLEGE FOR THE DEAF,college,Howard County Junior College District campus; very small cohorts
+409315,South Texas College,145,SOUTH TEXAS COLLEGE,college,exact name
+420398,Northwest Vista College,75,ALAMO CCD-NORTHWEST VISTA COLLEGE,college,Alamo Colleges campus
+488730,Northeast Lakeview College,76,ALAMO CCD-NORTHEAST LAKEVIEW COLLEGE,college,Alamo Colleges campus

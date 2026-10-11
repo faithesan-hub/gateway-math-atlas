@@ -1,0 +1,38 @@
+{
+ "version": "1.0",
+ "built_from": "data/processed/atlas_v1_colleges.csv",
+ "CA": {
+  "colleges": 115,
+  "colleges_not_small": 115,
+  "latest_cohort": "2023",
+  "students_latest_cohort": 348509,
+  "completers_latest_cohort": 71574,
+  "pooled_rate_latest_cohort": 0.2054,
+  "median_college_rate": 0.2037,
+  "p10_college_rate": 0.116,
+  "p90_college_rate": 0.3074,
+  "min_college": "Palo Verde College",
+  "min_rate": 0.0429,
+  "max_college": "Irvine Valley College",
+  "max_rate": 0.3827,
+  "pearson_r_rate_vs_pell": -0.093,
+  "n_pell_pairs": 115
+ },
+ "TX": {
+  "colleges": 55,
+  "colleges_not_small": 54,
+  "latest_cohort": "2022",
+  "students_latest_cohort": 79069,
+  "completers_latest_cohort": 38455,
+  "pooled_rate_latest_cohort": 0.4863,
+  "median_college_rate": 0.493,
+  "p10_college_rate": 0.3524,
+  "p90_college_rate": 0.5756,
+  "min_college": "Del Mar College",
+  "min_rate": 0.2336,
+  "max_college": "Howard College",
+  "max_rate": 0.6925,
+  "pearson_r_rate_vs_pell": -0.163,
+  "n_pell_pairs": 54
+ }
+}

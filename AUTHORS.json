@@ -1,0 +1,23 @@
+{
+  "_comment": "Author block. Every document, citation file, Zenodo record and commit reads from here.",
+  "authors": [
+    {
+      "name": "Faith Oluwafunmitan Esan",
+      "family": "Esan",
+      "given": "Faith Oluwafunmitan",
+      "orcid": "0009-0001-3694-157X",
+      "github": "faithesan-hub",
+      "email": "",
+      "affiliation": "Independent Researcher, Laramie, Wyoming, USA",
+      "roles": [
+        "Conceptualization",
+        "Methodology",
+        "Data curation",
+        "Validation",
+        "Writing - original draft"
+      ],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}

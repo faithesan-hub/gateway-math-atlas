@@ -1,0 +1,6 @@
+# State raw downloads are not redistributed (no open license); see README "Getting the state files"
+data/raw/ca/
+data/raw/tx/
+__pycache__/
+*.pyc
+.env

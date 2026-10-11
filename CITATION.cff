@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: dataset
+title: "US Gateway Mathematics Outcomes Atlas"
+version: "1.0.0"
+date-released: "2026-10-10"
+authors:
+  - family-names: "Esan"
+    given-names: "Faith Oluwafunmitan"
+    orcid: "https://orcid.org/0009-0001-3694-157X"
+    affiliation: "Independent Researcher, Laramie, Wyoming, USA"
+license: CC-BY-4.0
+repository-code: "https://github.com/faithesan-hub/gateway-math-atlas"
+abstract: "Institution-level gateway mathematics completion outcomes from California (CCCCO metric 502C) and Texas (THECB measure C18UC) public two-year colleges, matched to IPEDS UNITIDs with documented crosswalks and joined to federal enrollment and Pell data."
+keywords:
+  - "gateway mathematics"
+  - "community colleges"
+  - "developmental education"
+  - "corequisite"
+  - "IPEDS"
+  - "postsecondary data"

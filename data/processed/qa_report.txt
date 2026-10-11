@@ -1,0 +1,119 @@
+GATEWAY MATH ATLAS v1.0 - QA REPORT
+Plain-language note: every check below should say OK, or be explained in docs/LIMITATIONS.md.
+
+1. ROW COUNTS
+   CA: 574 college-cohort rows, 115 colleges
+   TX: 164 college-cohort rows, 55 colleges
+   CA crosswalk colleges: 115  with data: 115
+   FLAG ca_missing_years: [['Madera College', '19-20']]
+   TX institutions in crosswalk: 55
+
+2. MATCH TO FEDERAL IDS
+   CA: 115 of 123 Data Vista colleges matched; 8 excluded (noncredit/online/TV units, listed in crosswalk)
+   TX: 55 institutions matched; district-level matches: ['Dallas College', 'Lone Star College System', 'San Jacinto Community College', 'Tarrant County College District']
+   Duplicate UNITIDs in college table: none - OK
+
+3. RANGE CHECKS
+   Rates outside 0-1: none - OK
+   Completers > cohort: none - OK
+   Small cohorts (n<30), flagged not dropped: 3 -> ['Southwest College for the Deaf 2021 (n=4)', 'Southwest College for the Deaf 2022 (n=5)', 'Weatherford College 2021 (n=12)']
+   Cohort size jumps >3x year to year (possible reporting issue): ['Weatherford College 2020->2021 n 859->12', 'Weatherford College 2021->2022 n 12->666']
+   CA check, sum of matched colleges vs Data Vista statewide 502C (cohort n / completers):
+      2019  ours  330741 /  67584   statewide  322909 /  65845   ratio n 1.024
+      2020  ours  273390 /  63486   statewide  261498 /  60440   ratio n 1.045
+      2021  ours  271424 /  58410   statewide  259733 /  55515   ratio n 1.045
+      2022  ours  312712 /  66319   statewide  299044 /  63084   ratio n 1.046
+      2023  ours  348509 /  71574   statewide  331073 /  68003   ratio n 1.053
+      NOTE: colleges sum to 2-5% MORE than the statewide count. Likely cause: a student enrolled at two colleges counts in both college cohorts but once statewide. Not confirmed by CCCCO; see LIMITATIONS.md.
+   TX check, sum of matched institutions vs THECB statewide community-college total (n):
+      2020 prepared      ours  31351  THECB statewide  36656  ratio 0.855
+      2020 underprepared ours  41850  THECB statewide  47587  ratio 0.879
+      2021 prepared      ours  28330  THECB statewide  34530  ratio 0.820
+      2021 underprepared ours  43266  THECB statewide  51887  ratio 0.834
+      2022 prepared      ours  33216  THECB statewide  40607  ratio 0.818
+      2022 underprepared ours  45853  THECB statewide  54948  ratio 0.834
+      NOTE: ratio below 1 means THECB's statewide figure counts students not attributed to any listed college.
+      All public two-year colleges were queried; Lamar State Colleges, Lamar Institute and TSTC return no
+      college-level values in the public portal. Open question for THECB, see LIMITATIONS.md.
+
+4. SPOT CHECKS (author verifies these by hand against the state website)
+   CA | Allan Hancock College | source name 'Allan Hancock College' | cohort 2019 | 527 of 2641 = 20.0%
+   CA | Allan Hancock College | source name 'Allan Hancock College' | cohort 2020 | 450 of 2208 = 20.4%
+   CA | Allan Hancock College | source name 'Allan Hancock College' | cohort 2021 | 383 of 2267 = 16.9%
+   CA | Allan Hancock College | source name 'Allan Hancock College' | cohort 2022 | 517 of 2623 = 19.7%
+   CA | Allan Hancock College | source name 'Allan Hancock College' | cohort 2023 | 578 of 2667 = 21.7%
+   CA | East Los Angeles College | source name 'East Los Angeles College' | cohort 2019 | 543 of 4928 = 11.0%
+   CA | East Los Angeles College | source name 'East Los Angeles College' | cohort 2020 | 477 of 3492 = 13.7%
+   CA | East Los Angeles College | source name 'East Los Angeles College' | cohort 2021 | 514 of 3648 = 14.1%
+   CA | East Los Angeles College | source name 'East Los Angeles College' | cohort 2022 | 699 of 4711 = 14.8%
+   CA | East Los Angeles College | source name 'East Los Angeles College' | cohort 2023 | 676 of 7492 = 9.0%
+   CA | Mt San Antonio College | source name 'Mt. San Antonio College' | cohort 2019 | 1348 of 6398 = 21.1%
+   CA | Mt San Antonio College | source name 'Mt. San Antonio College' | cohort 2020 | 1279 of 5448 = 23.5%
+   CA | Mt San Antonio College | source name 'Mt. San Antonio College' | cohort 2021 | 1129 of 5145 = 21.9%
+   CA | Mt San Antonio College | source name 'Mt. San Antonio College' | cohort 2022 | 1358 of 5947 = 22.8%
+   CA | Mt San Antonio College | source name 'Mt. San Antonio College' | cohort 2023 | 1517 of 6646 = 22.8%
+   CA | Palo Verde College | source name 'Palo Verde College' | cohort 2019 | 24 of 1022 = 2.4%
+   CA | Palo Verde College | source name 'Palo Verde College' | cohort 2020 | 14 of 510 = 2.8%
+   CA | Palo Verde College | source name 'Palo Verde College' | cohort 2021 | 25 of 776 = 3.2%
+   CA | Palo Verde College | source name 'Palo Verde College' | cohort 2022 | 36 of 859 = 4.2%
+   CA | Palo Verde College | source name 'Palo Verde College' | cohort 2023 | 39 of 909 = 4.3%
+   CA | Copper Mountain Community College | source name 'Copper Mountain College' | cohort 2019 | 68 of 383 = 17.8%
+   CA | Copper Mountain Community College | source name 'Copper Mountain College' | cohort 2020 | 60 of 312 = 19.2%
+   CA | Copper Mountain Community College | source name 'Copper Mountain College' | cohort 2021 | 57 of 323 = 17.6%
+   CA | Copper Mountain Community College | source name 'Copper Mountain College' | cohort 2022 | 61 of 302 = 20.2%
+   CA | Copper Mountain Community College | source name 'Copper Mountain College' | cohort 2023 | 63 of 358 = 17.6%
+   TX | Alvin Community College | source name 'ALVIN COMMUNITY COLLEGE' | cohort 2020 | 306 of 527 = 58.1%  [prepared 191/305, underprepared 115/222]
+   TX | Alvin Community College | source name 'ALVIN COMMUNITY COLLEGE' | cohort 2021 | 294 of 538 = 54.6%  [prepared 164/215, underprepared 130/323]
+   TX | Alvin Community College | source name 'ALVIN COMMUNITY COLLEGE' | cohort 2022 | 289 of 495 = 58.4%  [prepared 162/221, underprepared 127/274]
+   TX | Tarrant County College District | source name 'TARRANT COUNTY COLLEGE DISTRICT' | cohort 2020 | 2278 of 4022 = 56.6%  [prepared 1567/2562, underprepared 711/1460]
+   TX | Tarrant County College District | source name 'TARRANT COUNTY COLLEGE DISTRICT' | cohort 2021 | 2015 of 3283 = 61.4%  [prepared 1546/2409, underprepared 469/874]
+   TX | Tarrant County College District | source name 'TARRANT COUNTY COLLEGE DISTRICT' | cohort 2022 | 2725 of 4740 = 57.5%  [prepared 1769/2897, underprepared 956/1843]
+   TX | Palo Alto College | source name 'ALAMO CCD-PALO ALTO COLLEGE' | cohort 2020 | 887 of 1837 = 48.3%  [prepared 373/608, underprepared 514/1229]
+   TX | Palo Alto College | source name 'ALAMO CCD-PALO ALTO COLLEGE' | cohort 2021 | 732 of 1528 = 47.9%  [prepared 274/423, underprepared 458/1105]
+   TX | Palo Alto College | source name 'ALAMO CCD-PALO ALTO COLLEGE' | cohort 2022 | 881 of 1818 = 48.5%  [prepared 438/662, underprepared 443/1156]
+   TX | Clarendon College | source name 'CLARENDON COLLEGE' | cohort 2020 | 70 of 211 = 33.2%  [prepared 28/39, underprepared 42/172]
+   TX | Clarendon College | source name 'CLARENDON COLLEGE' | cohort 2021 | 71 of 270 = 26.3%  [prepared 21/33, underprepared 50/237]
+   TX | Clarendon College | source name 'CLARENDON COLLEGE' | cohort 2022 | 52 of 165 = 31.5%  [prepared 6/6, underprepared 46/159]
+   TX | Lone Star College System | source name 'LONE STAR COLLEGE SYSTEM' | cohort 2020 | 2432 of 5394 = 45.1%  [prepared 1402/2444, underprepared 1030/2950]
+   TX | Lone Star College System | source name 'LONE STAR COLLEGE SYSTEM' | cohort 2021 | 2768 of 6391 = 43.3%  [prepared 1241/2017, underprepared 1527/4374]
+   TX | Lone Star College System | source name 'LONE STAR COLLEGE SYSTEM' | cohort 2022 | 4075 of 8240 = 49.5%  [prepared 2518/3800, underprepared 1557/4440]
+
+5. HEADLINE NUMBERS (written to report/stats.json)
+{
+ "version": "1.0",
+ "built_from": "data/processed/atlas_v1_colleges.csv",
+ "CA": {
+  "colleges": 115,
+  "colleges_not_small": 115,
+  "latest_cohort": "2023",
+  "students_latest_cohort": 348509,
+  "completers_latest_cohort": 71574,
+  "pooled_rate_latest_cohort": 0.2054,
+  "median_college_rate": 0.2037,
+  "p10_college_rate": 0.116,
+  "p90_college_rate": 0.3074,
+  "min_college": "Palo Verde College",
+  "min_rate": 0.0429,
+  "max_college": "Irvine Valley College",
+  "max_rate": 0.3827,
+  "pearson_r_rate_vs_pell": -0.093,
+  "n_pell_pairs": 115
+ },
+ "TX": {
+  "colleges": 55,
+  "colleges_not_small": 54,
+  "latest_cohort": "2022",
+  "students_latest_cohort": 79069,
+  "completers_latest_cohort": 38455,
+  "pooled_rate_latest_cohort": 0.4863,
+  "median_college_rate": 0.493,
+  "p10_college_rate": 0.3524,
+  "p90_college_rate": 0.5756,
+  "min_college": "Del Mar College",
+  "min_rate": 0.2336,
+  "max_college": "Howard College",
+  "max_rate": 0.6925,
+  "pearson_r_rate_vs_pell": -0.163,
+  "n_pell_pairs": 54
+ }
+}
