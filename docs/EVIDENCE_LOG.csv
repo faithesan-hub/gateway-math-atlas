@@ -1,1 +1,2 @@
 date,artifact_or_event,type,venue_or_host,link_or_doi,status,prong_tags,metrics_snapshot,files_saved,notes
+2026-10-10,US Gateway Mathematics Outcomes Atlas v1.0 code and data pushed,dataset + software,GitHub,https://github.com/faithesan-hub/gateway-math-atlas,"pushed to main (commit 751bc0a); repository private; GitHub release and Zenodo DOI pending",,"115 CA colleges, 55 TX colleges or districts",,Verified by maintainer 2026-10-10 before push
