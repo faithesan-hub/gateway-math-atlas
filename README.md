@@ -1,6 +1,8 @@
 # US Gateway Mathematics Outcomes Atlas
 
-**Status:** Version 1.0, released 2026-10-10, verified by the maintainer | **Maintainer:** Faith Oluwafunmitan Esan, [ORCID 0009-0001-3694-157X](https://orcid.org/0009-0001-3694-157X) | **License:** code MIT, derived data and text CC BY 4.0
+[![Zenodo DOI badge](https://zenodo.org/badge/DOI/10.5281/zenodo.23773052.svg)](https://doi.org/10.5281/zenodo.23773052)
+
+**Status:** Version 1.0, released 2026-10-29, verified by the maintainer | **Maintainer:** Faith Oluwafunmitan Esan, [ORCID 0009-0001-3694-157X](https://orcid.org/0009-0001-3694-157X) | **License:** code MIT, derived data and text CC BY 4.0
 
 **In plain terms:** Passing a first college-level math class early is one of the strongest signs a community college student will finish a degree. Several states report this for each college, but every state publishes it differently and none of it is linked to the federal college records researchers use. This atlas does that matching once, carefully, for California and Texas, and publishes the result so anyone can look up a college or reuse the data.
 
@@ -64,7 +66,9 @@ See [docs/LIMITATIONS.md](docs/LIMITATIONS.md) before using or citing anything h
 
 ## Citation
 
-See `CITATION.cff`. DOI: added here once the Zenodo archive is created.
+Esan, F. O. (2026). *US Gateway Mathematics Outcomes Atlas* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23773052
+
+To cite all versions (always the latest): https://doi.org/10.5281/zenodo.23773051
 
 ## AI assistance
 

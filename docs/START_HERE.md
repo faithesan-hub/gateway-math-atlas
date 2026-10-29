@@ -2,7 +2,7 @@
 
 *Read this first. It explains your project in plain language. Words in bold are explained in [GLOSSARY.md](GLOSSARY.md).*
 
-**Status: version 1.0 verified and released on GitHub. Zenodo DOI next.**
+**Status: version 1.0 released on 29 October 2026. DOI 10.5281/zenodo.23773052.**
 
 ## What you are building
 
@@ -31,7 +31,7 @@ All sources are free and public.
 ## What you will have at the end of version 1.0
 
 - [x] **A public project page** on GitHub where anyone can see and reuse your work: https://github.com/faithesan-hub/gateway-math-atlas
-- [ ] **A permanent citation number (DOI)** from Zenodo, so others can cite version 1.0: next step, after GitHub
+- [x] **A permanent citation number (DOI)** from Zenodo, so others can cite version 1.0: https://doi.org/10.5281/zenodo.23773052
 - [x] **The joined dataset**: one table, every included college, its state math result, and its federal facts, with a codebook
 - [x] **The online atlas**: a browsable map and lookup page
 - [ ] **A short technical report** describing how it was built and what it shows
@@ -64,4 +64,4 @@ Everything else is built for you.
 5. **Draft report and atlas page.** Every number comes straight from the data.
 6. **Ready for your check.** You verify, then we publish version 1.0.
 
-*You are here: published. Next, the Zenodo DOI.*
+*You are here: version 1.0 is published and citable. Next: version 2.0 (see NEXT_STEPS.md).*
